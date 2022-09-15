@@ -1,3 +1,172 @@
+/* ///////////////// */
+/* Paleta de colores
+/* ///////////////// */
+
+/* 
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+/* ///////////////// */
+/* Tipografías */
+/* ///////////////// */
+
+/* Familia: 'Roboto' */
+
+/* ///////////////// */
+/* Tamaños Tipográficos */
+/* ///////////////// */
+
+/* Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
+
+/* ///////////////// */
+/* Iconos */
+/* ///////////////// */
+
+/* https://fontawesome.com/icons?d=gallery&m=free */
+
+/* ///////////////////////////////// */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Porcentage del font-size del browser del user */
+  font-size: 62.5%;
+}
+
 img {
   width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+header {
+  display: flex;
+  background-color: #eac926;
+  flex-direction: column;
+}
+
+.logo {
+  height: 9rem;
+  padding: 2rem;
+}
+
+/* ////////////// */
+
+.search-bar-div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.search-bar {
+  margin-left: 10px;
+  height: 2.5rem;
+  width: 85vw;
+  font-size: 1.5rem;
+}
+
+.fa-magnifying-glass {
+  font-size: 2rem;
+}
+
+/* ////////////// */
+
+.compra-en-cuotas {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* ////////////// */
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.login-bar {
+  margin-top: 20px;
+}
+
+.links-header {
+  text-decoration: none;
+  color: #03264c;
+  font-size: 1.2rem;
+}
+
+/* ////////////// */
+
+.burger-menu {
+  text-align: center;
+}
+
+.fa-bars {
+  background-color: #1259c3;
+  font-size: 2.5rem;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 20px;
+}
+
+/* ////////////// */
+
+.titulares {
+  font-size: 2.4rem;
+}
+
+.precios {
+  font-size: 1.8rem;
+}
+
+.descuentos {
+  font-size: 1.6rem;
+}
+
+.descripciones {
+  font-size: 1.6rem;
+}
+
+footer div {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 5rem;
+}
+
+footer h3 {
+  color: #666;
+  font-size: 1.6rem;
+}
+
+footer p {
+  color: #666;
+}
+
+.footer-icons {
+  color: #1259c3;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  margin-top: 30px;
+  padding: 2rem;
 }
