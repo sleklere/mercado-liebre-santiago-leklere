@@ -1,0 +1,25 @@
+/* navegación en tablets (361px)*/
+@media (min-width: 22.5625rem) {
+  .search-bar {
+    width: auto;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  main section article {
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.4);
+  }
+
+  .descripciones {
+    display: block;
+  }
+}
+/* navegación en desktop (769px)*/
+@media (min-width: 48.0625rem) {
+}

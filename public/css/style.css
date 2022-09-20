@@ -46,12 +46,9 @@ html {
   font-size: 62.5%;
 }
 
-img {
-  width: 100%;
-}
-
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -59,17 +56,20 @@ p {
 }
 
 header {
+  width: 100vw;
   display: flex;
   background-color: #eac926;
   flex-direction: column;
-}
-
-.logo {
-  height: 9rem;
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* ////////////// */
+
+.logo {
+  width: 50%;
+  /* height: 9rem; */
+  margin: 2rem;
+}
 
 .search-bar-div {
   display: flex;
@@ -99,7 +99,8 @@ header {
 
 .nav {
   list-style-type: none;
-  padding: 0;
+  margin-left: 10px;
+  display: none;
 }
 
 .login-bar {
@@ -129,9 +130,69 @@ header {
 
 /* ////////////// */
 
+.banner {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* ////////////// */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 90vw; */
+  padding: 0 5vw;
+  background-color: #ebebeb;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+main section article img {
+  width: 100%;
+}
+
+main section article {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.descripcion-producto {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  padding-top: 1rem;
+}
+
 .titulares {
   font-size: 2.4rem;
+  color: #666;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
+
+/* /// */
+.delivery-icon-div {
+  padding: 1rem 0;
+}
+
+.fa-truck {
+  box-sizing: border-box;
+  display: inline !important;
+  width: 100%;
+  font-size: 2rem;
+  color: #39b54a;
+  border-radius: 50%;
+  border: 1px solid #39b54a;
+  padding: 1rem;
+}
+/* /// */
 
 .precios {
   font-size: 1.8rem;
@@ -139,11 +200,16 @@ header {
 
 .descuentos {
   font-size: 1.6rem;
+  color: #39b54a;
 }
 
 .descripciones {
   font-size: 1.6rem;
+  color: #666;
+  display: none;
 }
+
+/* ///////////////////// */
 
 footer div {
   text-align: center;
