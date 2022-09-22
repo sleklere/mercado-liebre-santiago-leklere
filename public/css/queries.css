@@ -1,15 +1,22 @@
 /* navegación en tablets (361px)*/
 @media (min-width: 22.5625rem) {
-  /* .main-nav {
+  .articulos {
     display: flex;
-  } */
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
-  /* .burger-menu {
-    display: none;
-  } */
+  main section .articulos article {
+    width: 48%;
+  }
+
+  main :nth-child(2) .articulos article {
+    width: 48%;
+    justify-self: center;
+  }
 
   main section article {
-    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.4);
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.25);
   }
 
   .descripciones {
@@ -49,6 +56,10 @@
   .compra-en-cuotas {
     max-width: 35%;
     text-align: right;
+  }
+
+  main section .articulos article {
+    width: 24%;
   }
 }
 

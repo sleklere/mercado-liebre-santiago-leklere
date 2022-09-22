@@ -55,6 +55,8 @@ p {
   font-size: 1.2rem;
 }
 
+/* ////////////// */
+
 header {
   /* display: flex; */
   /* flex-direction: column; */
@@ -62,8 +64,6 @@ header {
   background-color: #eac926;
   padding-bottom: 2rem;
 }
-
-/* ////////////// */
 
 .header-top {
   display: flex;
@@ -152,9 +152,6 @@ header {
   font-size: 2.5rem;
   padding: 1.2rem 1.5rem;
   border-radius: 5px;
-
-  /* text-align: center; */
-  /* align-self: center; */
 }
 
 /* ////////////// */
@@ -167,29 +164,8 @@ header {
 /* ////////////// */
 
 main {
-  /* width: 90vw; */
-  /* margin: 0 auto; */
-  padding: 0rem 5vw;
+  padding: 0rem 5%;
   background-color: #ebebeb;
-}
-
-main section article img {
-  width: 100%;
-}
-
-main section article {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  line-height: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.descripcion-producto {
-  border-top: 1px solid #ebebeb;
-  padding: 15px;
-  padding-top: 1rem;
-  position: relative;
 }
 
 .titulares {
@@ -199,20 +175,27 @@ main section article {
   padding-bottom: 20px;
 }
 
-/* /// */
-.delivery-icon-div {
-  padding: 1rem 0;
+/* ///// */
+
+main section article {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 2px;
 }
 
-/* .fa-truck {
-  display: inline !important;
+main section article img {
   width: 100%;
-  font-size: 2rem;
-  color: #39b54a;
-  border-radius: 50%;
-  border: 1px solid #39b54a;
-  padding: 1rem;
-} */
+  padding: 1.5rem;
+}
+
+.descripcion-producto {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  padding-top: 2rem;
+  position: relative;
+}
 
 .fa-truck {
   display: block;
@@ -229,11 +212,9 @@ main section article {
   top: -15px;
 }
 
-/* /// */
-
 .precio-descuento-div {
   display: flex;
-  gap: 10px;
+  gap: 6px;
   align-items: center;
 }
 
@@ -243,7 +224,7 @@ main section article {
 }
 
 .descuentos {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #39b54a;
   flex-grow: 70%;
 }
@@ -263,6 +244,12 @@ footer div {
   padding: 0 5rem;
 }
 
+footer div i {
+  color: #1259c3;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
 footer h3 {
   color: #666;
   font-size: 1.6rem;
@@ -270,12 +257,6 @@ footer h3 {
 
 footer p {
   color: #666;
-}
-
-footer div i {
-  color: #1259c3;
-  font-size: 4rem;
-  margin-bottom: 10px;
 }
 
 .copyright {
