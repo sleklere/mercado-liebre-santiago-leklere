@@ -1,16 +1,12 @@
 /* navegación en tablets (361px)*/
 @media (min-width: 22.5625rem) {
-  .search-bar {
-    width: auto;
-  }
+  /* .main-nav {
+    display: flex;
+  } */
 
-  .nav {
-    display: block;
-  }
-
-  .burger-menu {
+  /* .burger-menu {
     display: none;
-  }
+  } */
 
   main section article {
     box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.4);
@@ -20,6 +16,60 @@
     display: block;
   }
 }
+
 /* navegación en desktop (769px)*/
+/* no es una dimension de tablet en realidad?? */
 @media (min-width: 48.0625rem) {
+  .header-top,
+  .main-nav {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .main-nav {
+    display: flex;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .header-top {
+    flex-wrap: nowrap;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .search-bar-div {
+    max-width: 300px;
+  }
+
+  .compra-en-cuotas {
+    max-width: 35%;
+    text-align: right;
+  }
+}
+
+/* navegación en desktop (1200px)*/
+@media (min-width: 75rem) {
+  .header-top,
+  .main-nav {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .search-bar-div {
+    max-width: 600px;
+  }
+
+  .compra-en-cuotas {
+    min-width: 370px;
+    font-size: 1.8rem;
+  }
+
+  .links-header {
+    font-size: 1.6rem;
+  }
 }
