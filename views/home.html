@@ -72,7 +72,7 @@
     </header>
     <img class="banner" src="/images/img-home-banner.jpg" />
     <main>
-      <section>
+      <section class="section-ultima-visita">
         <h2 class="titulares">Basado en tu última visita</h2>
         <div class="articulos">
           <article>
@@ -128,7 +128,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="section-ofertas">
         <h2 class="titulares">Ofertas</h2>
         <div class="articulos">
           <article>
@@ -170,6 +170,47 @@
         </div>
       </section>
     </main>
+
+    <!-- FORM -->
+    <form action="/crear-producto" method="post" class="create-form">
+      <div class="divs-form">
+        <label>Nombre del producto</label>
+        <input type="text" name="nombre" class="control" />
+      </div>
+      <div class="divs-form">
+        <label>Precio:</label>
+        <input type="text" name="precio" class="control" />
+      </div>
+      <div class="divs-form">
+        <label>Categoría:</label>
+        <select name="categoria" class="control">
+          <option value="hogar">Hogar</option>
+          <option value="electro">Electro</option>
+          <option value="indumentaria">Indumentaria</option>
+        </select>
+      </div>
+      <div class="divs-form">
+        <label>Ciudad:</label>
+        <select name="ciudad" class="control">
+          <option value="bsas">Buenos Aires</option>
+          <option value="ros">Rosario</option>
+          <option value="mdz">Mendoza</option>
+        </select>
+      </div>
+      <div class="divs-form">
+        <label>Descripción del producto</label>
+        <textarea name="descripcion" class="control"></textarea>
+      </div>
+      <div class="divs-form">
+        <label>Esta en oferta?</label>
+        <input type="checkbox" name="enOferta" />
+      </div>
+      <div class="div-buttons-form">
+        <button type="submit">Guardar</button>
+        <button type="reset">Borrar</button>
+      </div>
+    </form>
+
     <footer>
       <div>
         <i class="fa-solid fa-credit-card"></i>

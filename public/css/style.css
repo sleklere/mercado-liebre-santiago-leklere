@@ -99,7 +99,6 @@ header {
   height: 100%;
   padding: 0.5rem;
   border: 1px solid #ebebeb;
-  padding: 0.5rem;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -183,11 +182,20 @@ main section article {
   background-color: #fff;
   margin-bottom: 10px;
   border-radius: 2px;
+  transition: all 0.4s;
+}
+
+.section-ofertas div article:last-child {
+  margin-bottom: 0 !important;
 }
 
 main section article img {
-  width: 100%;
   padding: 1.5rem;
+}
+
+main section article:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .descripcion-producto {
@@ -220,13 +228,13 @@ main section article img {
 
 .precios {
   font-size: 1.8rem;
-  flex-grow: 30%;
+  /* flex-grow: 0.3; */
 }
 
 .descuentos {
   font-size: 1.4rem;
   color: #39b54a;
-  flex-grow: 70%;
+  /* flex-grow: 0.7; */
 }
 
 .descripciones {
@@ -234,6 +242,58 @@ main section article img {
   color: #666;
   display: none;
   margin-top: 15px;
+}
+
+/* ///////////////////// */
+/* Form */
+/* ///////////////////// */
+
+.create-form {
+  padding: 2rem 1.5rem;
+  background-color: #ebebeb;
+}
+
+.divs-form {
+  margin-bottom: 1.5rem;
+}
+
+.divs-form label {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.control {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  /* border: 1px solid #222; */
+  border: none;
+}
+
+.control:focus {
+  outline: none !important;
+  border: 2px solid #eac926;
+}
+
+.div-buttons-form {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.create-form button {
+  background-color: #1259c3;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.div-buttons-form :nth-child(2) {
+  background-color: #999;
 }
 
 /* ///////////////////// */
