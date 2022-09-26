@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/register.css" />
+
+    <title>Creá tu cuenta</title>
+  </head>
+  <body>
+    <div class="container-register--form">
+      <form action="/resultadosRegistro" method="post">
+        <div class="divs-form">
+          <label
+            >Nombre
+            <input type="text" name="nombre" class="control" />
+          </label>
+        </div>
+        <div class="divs-form">
+          <label
+            >Apellido
+            <input type="text" name="apellido" class="control" />
+          </label>
+        </div>
+        <div class="divs-form">
+          <label
+            >Nombre de Usuario
+            <input type="text" name="usuario" class="control" />
+          </label>
+        </div>
+        <div class="divs-form">
+          <label
+            >Fecha de Nacimiento
+            <input type="date" name="fechaNacimiento" class="control" />
+          </label>
+        </div>
+        <div class="divs-form">
+          <label
+            >Domicilio
+            <input type="text" name="docmicilio" class="control" />
+          </label>
+        </div>
+        <div class="divs-form">
+          <div class="divs-form">
+            <input
+              type="checkbox"
+              name="categoriasDeInteres"
+              value="electro"
+              class="checkbox"
+            />Electro
+          </div>
+          <div class="divs-form">
+            <input
+              type="checkbox"
+              name="categoriasDeInteres"
+              value="moda"
+              class="checkbox"
+            />Moda
+          </div>
+          <div class="divs-form">
+            <input
+              type="checkbox"
+              name="categoriasDeInteres"
+              value="hogar"
+              class="checkbox"
+            />Hogar
+          </div>
+          <div class="divs-form">
+            <input
+              type="checkbox"
+              name="categoriasDeInteres"
+              value="jugueteria"
+              class="checkbox"
+            />Juguetería
+          </div>
+          <div class="divs-form">
+            <input
+              type="checkbox"
+              name="categoriasDeInteres"
+              value="vidaSana"
+              class="checkbox"
+            />Vida sana
+          </div>
+        </div>
+        <div class="divs-form">
+          <label
+            >Foto usuario
+            <input
+              type="file"
+              name="foto-usuario"
+              accept=".png, .jpg"
+              class="control"
+            />
+          </label>
+        </div>
+        <div class="divs-form">
+          <label
+            >Contraseña
+            <input type="password" class="control" />
+          </label>
+        </div>
+        <div class="divs-form">
+          <label
+            >Repetir Contraseña
+            <input type="password" class="control" />
+          </label>
+        </div>
+        <div class="div-buttons-form">
+          <button type="submit"><a href="/">Crear cuenta</a></button>
+          <button type="reset">Borrar datos</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

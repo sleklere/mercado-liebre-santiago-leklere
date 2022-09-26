@@ -255,12 +255,13 @@ main section article:hover {
 
 .divs-form {
   margin-bottom: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .divs-form label {
   display: block;
-  font-style: italic;
-  font-size: 1.5rem;
+  /* font-style: italic; */
+  font-size: 1.6rem;
   margin-bottom: 0.5rem;
 }
 
@@ -268,8 +269,8 @@ main section article:hover {
   width: 100%;
   padding: 0.8rem;
   border-radius: 10px;
-  /* border: 1px solid #222; */
-  border: none;
+  border: 2px solid #ebebeb;
+  /* border: none; */
 }
 
 .control:focus {
@@ -283,7 +284,7 @@ main section article:hover {
   gap: 1.5rem;
 }
 
-.create-form button {
+.div-buttons-form button {
   background-color: #1259c3;
   border: none;
   font-size: 20px;

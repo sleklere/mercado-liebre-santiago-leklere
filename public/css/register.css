@@ -1,0 +1,24 @@
+.container-register--form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+}
+
+/* .container-register--form form {
+} */
+
+.categorias-interes {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.div-buttons-form a {
+  text-decoration: none;
+  color: #fff;
+}
