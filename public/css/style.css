@@ -248,6 +248,15 @@ main section article:hover {
 /* Form */
 /* ///////////////////// */
 
+.container--form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+  padding: 0 5%;
+}
+
 .create-form {
   padding: 2rem 1.5rem;
   background-color: #ebebeb;
@@ -258,11 +267,11 @@ main section article:hover {
   font-size: 1.6rem;
 }
 
-.divs-form label {
-  display: block;
-  /* font-style: italic; */
+.divs-form label,
+.divs-form p {
   font-size: 1.6rem;
-  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #444;
 }
 
 .control {

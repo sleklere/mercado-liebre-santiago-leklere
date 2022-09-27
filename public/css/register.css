@@ -1,21 +1,35 @@
-.container-register--form {
-  height: 100vh;
+.div-perfil--usuario {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ebebeb;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-/* .container-register--form form {
-} */
+.div-perfil--usuario p {
+  width: 100%;
+  /* font-weight: 700;
+  color: #444; */
+}
 
-.categorias-interes {
-  display: flex;
-  flex-direction: column;
+.div-perfil--usuario label {
+  font-weight: 400;
+}
+
+.div-perfil--usuario input {
+  margin-right: 5px;
+}
+
+.categ-interes-p {
+  margin-bottom: 20px;
+  /* font-weight: 700;
+  color: #444; */
 }
 
 .checkbox {
   margin-right: 5px;
+}
+
+.div-foto--usuario {
+  margin: 2.5rem 0;
 }
 
 .div-buttons-form a {
