@@ -1,0 +1,8 @@
+.div-buttons-form button {
+  transition: all 0.4s;
+}
+
+.div-buttons-form button:hover {
+  cursor: pointer;
+  background-color: #0022aa;
+}

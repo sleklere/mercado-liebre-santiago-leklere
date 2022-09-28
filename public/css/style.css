@@ -185,18 +185,17 @@ main section article {
   transition: all 0.4s;
 }
 
-.section-ofertas div article:last-child {
+/* .section-ofertas div article:last-child {
   margin-bottom: 0 !important;
-}
+} */
 
 main section article img {
   padding: 1.5rem;
 }
 
-main section article:hover {
-  transform: scale(1.02);
-  cursor: pointer;
-}
+/* .show {
+  display: block;
+} */
 
 .descripcion-producto {
   border-top: 1px solid #ebebeb;
@@ -240,8 +239,8 @@ main section article:hover {
 .descripciones {
   font-size: 1.6rem;
   color: #666;
-  display: none;
-  margin-top: 15px;
+  visibility: hidden;
+  margin-top: 5px;
 }
 
 /* ///////////////////// */
@@ -318,6 +317,12 @@ footer div i {
   color: #1259c3;
   font-size: 4rem;
   margin-bottom: 10px;
+  transition: all 0.4s;
+}
+
+footer div i:hover {
+  cursor: pointer;
+  color: #0022aa;
 }
 
 footer h3 {
