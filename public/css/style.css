@@ -58,8 +58,6 @@ p {
 /* ////////////// */
 
 header {
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 100vw;
   background-color: #eac926;
   padding-bottom: 2rem;
@@ -184,17 +182,9 @@ main section article {
   border-radius: 4px;
 }
 
-/* .section-ofertas div article:last-child {
-  margin-bottom: 0 !important;
-} */
-
 main section article img {
   padding: 1.5rem;
 }
-
-/* .show {
-  display: block;
-} */
 
 .descripcion-producto {
   border-top: 1px solid #ebebeb;
@@ -226,13 +216,11 @@ main section article img {
 
 .precios {
   font-size: 1.8rem;
-  /* flex-grow: 0.3; */
 }
 
 .descuentos {
   font-size: 1.4rem;
   color: #39b54a;
-  /* flex-grow: 0.7; */
 }
 
 .descripciones {

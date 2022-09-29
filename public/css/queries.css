@@ -9,19 +9,9 @@
   main section .articulos article {
     width: 48%;
   }
-
-  /* main :nth-child(2) .articulos article {
-    width: 48%;
-    justify-self: center;
-  } */
-
-  /* main section article {
-    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.25);
-  } */
 }
 
-/* navegación en desktop (769px)*/
-/* no es una dimension de tablet en realidad?? */
+/* tablet (769px)*/
 @media (min-width: 48.0625rem) {
   .header-top,
   .main-nav {
@@ -53,14 +43,6 @@
     max-width: 35%;
     text-align: right;
   }
-
-  /* main :nth-child(2) .articulos article {
-    width: 30%;
-  } */
-
-  /* .descripciones {
-    display: block;
-  } */
 }
 
 /* navegación en desktop (1200px)*/
@@ -86,7 +68,6 @@
   }
 
   main section article:hover {
-    /* transform: scale(1.02); */
     cursor: pointer;
     box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
     transform: translateY(1rem);
