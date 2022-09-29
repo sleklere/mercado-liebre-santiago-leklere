@@ -54,10 +54,6 @@
     text-align: right;
   }
 
-  main section .articulos article {
-    width: 24%;
-  }
-
   /* main :nth-child(2) .articulos article {
     width: 30%;
   } */
@@ -84,22 +80,28 @@
     font-size: 1.6rem;
   }
 
-  main section article:hover {
-    transform: scale(1.02);
-    cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+  main section .articulos article {
+    width: 24%;
+    transition: all 0.2s;
   }
 
-  /* .descripciones {
-    display: hidden;
-  } */
+  main section article:hover {
+    /* transform: scale(1.02); */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+    transform: translateY(1rem);
+  }
+
+  .descripciones {
+    visibility: hidden;
+  }
 
   main section article:hover .descripciones {
     visibility: visible;
   }
 
   .fa-truck {
-    transition: all 0.4s;
+    transition: all 0.5s;
   }
 
   main section article:hover .fa-truck {

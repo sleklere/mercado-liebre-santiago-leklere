@@ -181,8 +181,7 @@ main section article {
   flex-direction: column;
   background-color: #fff;
   margin-bottom: 10px;
-  border-radius: 2px;
-  transition: all 0.4s;
+  border-radius: 4px;
 }
 
 /* .section-ofertas div article:last-child {
@@ -239,7 +238,7 @@ main section article img {
 .descripciones {
   font-size: 1.6rem;
   color: #666;
-  visibility: hidden;
+  visibility: visible;
   margin-top: 5px;
 }
 
