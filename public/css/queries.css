@@ -6,7 +6,7 @@
     justify-content: space-around;
   }
 
-  main section .articulos article {
+  article {
     width: 48%;
   }
 }
@@ -62,22 +62,22 @@
     font-size: 1.6rem;
   }
 
-  main section .articulos article {
+  article {
     width: 24%;
     transition: all 0.2s;
   }
 
-  main section article:hover {
+  article:hover {
     cursor: pointer;
     box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
     transform: translateY(1rem);
   }
 
-  .descripciones {
+  article .descripciones {
     visibility: hidden;
   }
 
-  main section article:hover .descripciones {
+  article:hover .descripciones {
     visibility: visible;
   }
 
@@ -85,7 +85,7 @@
     transition: all 0.5s;
   }
 
-  main section article:hover .fa-truck {
+  article:hover .fa-truck {
     transform: rotate(1turn);
   }
 

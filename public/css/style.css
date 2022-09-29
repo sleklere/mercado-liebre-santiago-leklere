@@ -174,15 +174,16 @@ main {
 
 /* ///// */
 
-main section article {
+article {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  margin-bottom: 10px;
-  border-radius: 4px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
-main section article img {
+article img {
   padding: 1.5rem;
 }
 
