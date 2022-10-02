@@ -87,8 +87,8 @@ header {
   width: 100%;
   height: 100%;
   font-size: 1.5rem;
-  border: 1px solid #ebebeb;
   padding: 0.5rem;
+  border: 1px solid #ebebeb;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -109,10 +109,10 @@ header {
 /* ////////////// */
 
 .compra-en-cuotas {
-  font-size: 1.4rem;
-  text-align: center;
-  padding: 1rem 0;
   width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 /* ////////////// */
@@ -143,7 +143,6 @@ header {
   display: block;
   max-width: 5rem;
   margin: 0 auto;
-
   background-color: #1259c3;
   color: #fff;
   font-size: 2.5rem;
@@ -177,8 +176,8 @@ main {
 article {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   margin-bottom: 20px;
+  background-color: #fff;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -188,31 +187,32 @@ article img {
 }
 
 .descripcion-producto {
-  border-top: 1px solid #ebebeb;
+  position: relative;
   padding: 15px;
   padding-top: 2rem;
-  position: relative;
+  border-top: 1px solid #ebebeb;
 }
 
 .fa-truck {
+  position: absolute;
+  top: -15px;
+  right: 20px;
   display: block;
-  font-size: 1.6rem;
-  padding: 0.5rem;
   width: 30px;
   height: 30px;
+
+  font-size: 1.6rem;
+  padding: 0.5rem;
   color: #39b54a;
   border: 1px solid #39b54a;
   background-color: #fff;
   border-radius: 50%;
-  position: absolute;
-  right: 20px;
-  top: -15px;
 }
 
 .precio-descuento-div {
   display: flex;
-  gap: 6px;
   align-items: center;
+  gap: 6px;
 }
 
 .precios {
@@ -225,9 +225,9 @@ article img {
 }
 
 .descripciones {
+  visibility: visible;
   font-size: 1.6rem;
   color: #666;
-  visibility: visible;
   margin-top: 5px;
 }
 
@@ -236,12 +236,11 @@ article img {
 /* ///////////////////// */
 
 .container--form {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px 5%;
   background-color: #ebebeb;
-  padding: 0 5%;
 }
 
 .create-form {
@@ -266,7 +265,6 @@ article img {
   padding: 0.8rem;
   border-radius: 10px;
   border: 2px solid #ebebeb;
-  /* border: none; */
 }
 
 .control:focus {
@@ -278,15 +276,23 @@ article img {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  margin-top: 20px;
 }
 
 .div-buttons-form button {
+  width: 100%;
+  font-size: 20px;
+  padding: 1rem 1rem;
+  color: #fff;
   background-color: #1259c3;
   border: none;
-  font-size: 20px;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+
+.div-buttons-form button:hover {
+  cursor: pointer;
+  background-color: #0022aa;
 }
 
 .div-buttons-form :nth-child(2) {
